@@ -1,0 +1,11 @@
+/:
+    title: 'API'
+    classname: '\App\Controller\IndexController'
+
+/api/status[/]:
+    title: 'API'
+    classname: '\App\Controller\APIController:status'
+
+/api/posts[/]:
+    title: 'API Posts'
+    classname: '\App\Controller\APIController:posts'

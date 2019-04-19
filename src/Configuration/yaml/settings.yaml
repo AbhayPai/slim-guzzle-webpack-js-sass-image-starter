@@ -1,0 +1,9 @@
+settings:
+    displayErrorDetails: TRUE
+    debug: FALSE
+    view:
+        path: 'src/Pages/'
+        twig:
+            cache: FALSE
+            # cache: 'src/cache/Twig/Pages/'
+    iframing: FALSE

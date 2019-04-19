@@ -1,0 +1,6 @@
+# excluding folders and files
+cache/templates/*
+vendor/*
+node_modules/*
+composer.lock
+package-lock.json

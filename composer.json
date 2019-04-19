@@ -1,0 +1,39 @@
+{
+  "name": "api",
+  "description": "API",
+  "keywords": [
+    "routing",
+    "router"
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Abhay Pai",
+      "email": "pai.abhay8@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "slim/slim": "^3.0",
+    "slim/twig-view": "^2.4",
+    "symfony/yaml": "^4.1",
+    "guzzlehttp/guzzle": "^6.3",
+    "psr/log": "^1.1"
+  },
+  "require-dev": {
+    "kint-php/kint": "^3.0",
+    "squizlabs/php_codesniffer": "^3.4",
+    "symfony/console": "^4.2",
+    "kint-php/kint-js": "^2.0",
+    "kint-php/kint-twig": "^2.0",
+    "symfony/polyfill-iconv": "^1.11"
+  },
+  "scripts": {
+    "phpcs": "phpcs",
+    "phpcbf": "phpcbf"
+  }
+}

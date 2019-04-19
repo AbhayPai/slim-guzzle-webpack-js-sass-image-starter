@@ -1,0 +1,8 @@
+vendor/*
+node_modules/*
+libs/*
+src/Configuration/*
+src/Controller/*
+src/Pages/*
+src/System/*
+src/Utilities/*
